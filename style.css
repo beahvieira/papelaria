@@ -1,0 +1,87 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #565f81;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  color: #565f81;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+header {
+  background-color: rgb(171,216,235);
+  height: 115px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+nav {
+  margin-top: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+section {
+  font-size: 16px;
+  text-align: center;
+}
+
+div {
+  border: solid 1px #ccd1e6;
+  width: 300px;
+  height: 357px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  margin: 30px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+div:hover {
+  transition: 400ms linear;
+  transform: scale(1.2);
+}
+
+
+img {
+  width: 250px;
+}
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 35px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(30, 192, 141);
+}
+
+
+footer {
+  height: 40px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgb(171,216,235);
+}
+
+p {
+  color: #425081;
+  font-size: 13px;
+}
